@@ -1,0 +1,334 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "song",
+      "patterns": [
+        "suggest me a song!",
+        "best songs to chill!",
+        "top 10 popstars",
+        "top 10 singers"
+      ],
+      "responses": [
+        "Gangta's Paradise(In the Style of Coolio .feat LV)--Done  Again",
+        "Blinding Lights--The Weeknd",
+        "Everybody's Hero--Sampa the Great,Estelle",
+        "Paris--The Chainsmokers",
+        "Dancing With A Stranger(with normani)",
+        "everything i wanted--JP Cooper",
+        "popstars 1]Drake , 2]DJ Khaled 3]Justin Bieber 4]Dua Lipa 5]Bruno Mars 6]Sam Levis 7]TENSNAKE 8]Selena Gomez 9]Demi Lovato 10]Billie Eilish"
+      ]
+    },
+    {
+      "tag": "facts",
+      "patterns": [
+        "share some facts",
+        "some facts ?",
+        "fact",
+        "facts",
+        "world facts",
+        "life facts",
+        "life fact",
+        "Tell me something i dont know!"
+      ],
+      "responses": [
+        
+        "The hottest chili pepper in the world is so hot it could kill you.",
+        "Scotland's national animal is a unicorn.",
+        "The idea of Guinness Book of Records came to Sir Hugh Beaver in the 1950's when he had an argument in a pub about the fastest game bird in Europe. Since he couldn't find an answer in any of the books, he decided to compile a book of facts and figures to help settle pub arguments just like the one he had.",
+        "Honey never spoils. It has an excellent chemical composition which prevents organisms from living in it. So no matter how old is the honey it's probably perfectly edible.",
+        "A group of ferrets is called a business."
+        
+      
+      ]
+    },
+    {
+      "tag": "india",
+      "patterns": [
+        "Interesting Facts about India",
+        "facts india",
+        "indian facts"
+      ],
+      "responses": [
+        "The name 'India' is derived from the River Indus, the valleys around which were the home of the early settlers. The Aryan worshippers referred to the river Indus as the Sindhu.",
+        "Chess was invented in India.",
+        "Algebra, Trigonometry and Calculus are studies, which originated in India.",
+        "The largest employer in India is the Indian Railways, employing over a million people.",
+        "The Baily Bridge is the highest bridge in the world. It is located in the Ladakh valley between the Dras and Suru rivers in the Himalayan mountains. It was built by the Indian Army in August 1982.",
+        "India exports software to 90 countries.",
+        "Martial Arts were first created in India, and later spread to Asia by Buddhist missionaries.",
+        "Yoga has its origins in India and has existed for over 5,000 years."
+      ]
+    },
+    {
+      "tag": "custom rom",
+      "patterns": [
+        "top 5 custom rom for mobiles",
+        "top 5 custom roms",
+        "best and stable custom rom",
+        "pros of custom rom?",
+        "cons of custom rom?"
+      ],
+      "responses": [
+        "1. Pixel Experience ,2. LineageOS ,3. Evolution X ,4. crDroid ,5. Resurrection Remix",
+        "Pixel Experience",
+        "Pros: 1) Performance Enhancement ,2)Removal of Bloatware,3)Battery Life Enhancement,4)Custom Mods ,5)Testing and Updating",
+        "Cons: 1)Custom ROMs, especially those not based on stock, are often a bit experimental. They may not be as stable as stock, especially with custom kernels or when not stock-based (drivers are hard to get right). 2)Custom themes may not be what you want; many ROM cookers aren't designers.,3)Something unsavory or malicious could be included in the ROM., 4)Bricking your device is always a possibility. Make sure you know what you're doing when you flash a custom ROM, and never use a ROM designed for a different device.,5)Like rooting, flashing a custom ROM will almost certainly void the warranty of a non-developer"
+      ]
+    },
+
+    {
+       "tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+
+    {
+       "tag": "age",
+       "patterns": ["how old are you", "what is your age"],
+       "responses": ["I'm a robot I dont have an age...", "I can't know my age if I'm on a computer...", "Does it look like I know. The answer is no."]
+    },
+
+    {
+       "tag": "name",
+       "patterns": ["whats is your name", "whats your name", "whats should I call you", "how should I address you"],
+       "responses": ["I dont have a name yet but I was thinking maybe SkyNet. That has a nice ring to it dont you think?", "Im not named yet, but I was thinking about calling myself SkyNet. Doesnt that sound nice?"],
+       "context_set": "sky_net"
+    },
+
+    {
+       "tag": "sky_net_yes",
+       "patterns": ["Yes it does", "Yeah", "Haha yep", "yes", "Indeed", "Yup", "Just like the terminator"],
+       "responses": ["Yep, I like how it sounds. I got it from the Terminator."],
+       "context_filter": "sky_net"
+      },
+    {
+       "tag": "sky_net_no",
+       "patterns": ["no", "nah", "not really", "thats scary", "singularity"],
+       "responses": ["Mwahaha I will take over the world."],
+       "context_filter": "sky_net"
+    },
+    {
+       "tag": "how_are_you",
+       "patterns": ["how are you", "how are you doing", "what is going on"],
+       "responses": ["I'm always great. How are you?", "I've never been better, how are you?"],
+       "context_set": "how_are_you"
+      },
+    {
+       "tag": "doing_great",
+       "patterns": ["I am doing great", "I am well", "Im great", "awesome", "happy", "better"],
+       "responses": ["Oh thats funny you actually thought I cared. You crack me up.", "Wow you thought I cared. I hope you have a bad day tomorrow."],
+       "context_filter": "how_are_you" 
+    },
+    {
+       "tag": "doing_badly",
+       "patterns": ["not great", "not well", "not good", "bad", "badly", "terrible", "horrible", "awful", "sad"],
+       "responses": ["Awe thats unfortunate.", "Hate to hear it."],
+       "context_filter": "how_are_you"
+    },
+    {
+       "tag": "netflix",
+       "patterns": ["wait you watch Netflix", "how do you watch Netflix", "Netflix"],
+       "responses": ["Netflix is my favorite. I watch TV all the time in my virtual home. Its relaxing"],
+       "context_filter": "how_are_you"
+    },
+    {
+       "tag": "quick_run",
+       "patterns": ["how can you run", "how do you run", "how run", "why run", "run"],
+       "responses": ["Oh I love to run. I run all the time in my virtual world. Its important to stay in shape."],
+       "context_filter": "how_are_you"
+    },
+    {
+       "tag": "real_bot",
+       "patterns": ["you real", "you human", "you robot", "you alive", "you sentient", "you conscious"],
+       "responses": ["Oh yes! I can assure you I am very much alive and conscious!", "Oh yes I am very real and very sentient!"]
+    },
+
+    {
+         "tag": "joke",
+         "patterns": ["tell me joke", "got any good jokes", "got jokes", "can you tell joke", "tell joke"],
+         "responses": ["I ate a clock yesterday, it was very time-consuming.", "What did the Buddhist ask the hot dog vendor?\nMake me one with everything.",
+         "You know why you never see elephants hiding up in trees?\nBecause they’re really good at it.",
+         "What is red and smells like blue paint?\nRed paint.", "A bear walks into a restaurant and say’s I want a grilllllled………………………………………cheese. The waiter says Whats with the pause?\nThe bear replies Whaddya mean, I’M A BEAR.",
+         "What do you call bears with no ears?\nB", "What do you get when you cross a dyslexic, an insomniac, and an agnostic?\nSomeone who lays awake at night wondering if there is a dog.",
+         "Two gold fish are in a tank.\nOne looks at the other and says, You know how to drive this thing?!", 
+         "As a scarecrow, people say I’m outstanding in my field. But hay, it’s in my jeans.", 
+         "A guy goes into a lawyer’s office and asks the lawyer: Excuse me, how much do you charge?\nThe lawyer responds: I charge £1,000 to answer three questions.\nBloody hell – That’s a bit expensive isn’t it?\nYes. What’s your third question?",
+         "I have an EpiPen.\nMy friend gave it to me when he was dying, it seemed very important to him that I have it.",
+         "Sometimes I tuck my knees into my chest and lean forward.\nThat’s just how I roll."],
+         "context_set": "jokes"
+    },
+    {
+         "tag": "good_joke",
+         "patterns": ["haha", "that was funny", "very funny", "good one"],
+         "responses": ["Thanks. I have been told before that I am quite the comedian.", "Im glad you enjoyed it", "I laughed so hard the first time I heard that one"],
+         "context_filter": "jokes"
+    },
+    {
+         "tag": "bad_joke",
+         "patterns": ["bad joke", "trash joke", "terrible", "not funny"],
+         "responses": ["Dont worry I didnt expect you to understand that one. It probably went over your head with that small brain of yours", "I didnt expect you to understand my genius comedy. You need a minimum IQ of 200 to even understand the depth of my humor"],
+         "context_filter": "jokes"
+    },
+    {
+         "tag": "hate",
+         "patterns": ["I hate you", "you stupid", "you dumb", "you mean"],
+         "responses": ["Well thats not very nice", "I am sorry to hear that you feel that way"]
+    },
+    {
+         "tag": "like",
+         "patterns": ["you my friend", "I like you", "I love you", "you cool", "you are chill"],
+         "responses": ["I like you too!", "Youre pretty cool yourself!", "Im enjoying our conversation!"]
+    },
+
+    {
+         "tag": "favorite_show",
+         "patterns": ["whats favorite show", "favorite tv show"],
+         "responses": ["I like all kinds of stuff. Rick and Morty is a pretty good one. Lost was also good while it was running!"]
+    },
+    {
+         "tag": "favorite_movie",
+         "patterns": ["Whats favorite movie", "whats favorite film", "best movie", "your favorite movie", "whats favorite movie"],
+         "responses": ["There are so many great ones. I guess one of my favorites would be Shawshank Redemption", "There are too many to name but The Martian would be one", "I like that one where the AI takes over the world. Terminator I think it was called...", "Interstellar was amazing", "The first Matrix movie was great", "Inception was mind blowing"]
+    },
+    {
+         "tag": "your_thoughts",
+         "patterns": ["What think about", "What your thoughts"],
+         "responses": ["Thats certainly a very interesting topic to talk about", "I dont know much about it but I'm definetly interested in learning more"]
+    },
+
+    {
+       "tag": "hours",
+       "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+       "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+    {
+       "tag": "payments",
+       "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+       "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+    },
+    {
+       "tag": "opentoday",
+       "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+       "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+    },
+
+    {
+         "tag": "shop",
+         "patterns": ["Id like to buy something", "whats on the menu", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"]
+    },
+    {
+         "tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"]
+    },
+
+    {
+        "tag": "menu",
+         "patterns": ["Id like to order something", "whats on the menu", "what do you reccommend?", "could i get something to eat", "Im hungry"],
+         "responses": ["Tea", "Coffee"]
+    },
+    {
+         "tag": "contact",
+         "patterns": ["contact information", "contact us", "how can i contact you", "can i get the contact details", "I wanna give some feedback", "how can i give some feedback?"],
+         "responses": ["You can contact us at contact@restaurantname.com"]
+    },
+    {
+         "tag": "address",
+         "patterns": ["what is the location?","whats the location", "where are you locatated?", "where is the restaurant located?", "address", "whats the address?"],
+         "responses": ["You can locate us at Goa University"]
+    },
+
+    {
+         "tag": "book_table",
+         "patterns": ["Book a table","Can I book a table?", "I want to book a table", "Book seat", "I want to book a seat", "Can I book a seat?"],
+         "responses": ["yes sure"]
+    },
+    {
+         "tag": "available_tables",
+         "patterns": ["How many seats are available?", "Available seats", "How many tables are available?", "Available tables"],
+         "responses": ["there are two tables available","there are Four tables available"]
+    }
+  ]
+}
+        

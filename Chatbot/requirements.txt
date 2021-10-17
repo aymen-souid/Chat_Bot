@@ -1,0 +1,5 @@
+torch
+selenium
+webdriver_manager
+wikipedia
+nltk
