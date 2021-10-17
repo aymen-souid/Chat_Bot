@@ -11,4 +11,4 @@ The implementation is straightforward with a Feed Forward Neural net with 2 hidd
 Customization for your own use case is super easy. Just modify intents.json with possible patterns and responses and re-run the training (see below for more info).
 
 
-![Alt text](/Chat_Bot/3.png?raw=true "Titl3.png")
+![Alt text](aymen-souid/Chat_Bot/3.png?raw=true "3.png")
