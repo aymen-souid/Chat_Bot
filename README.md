@@ -1,6 +1,10 @@
 # Chat_Bot
 
-Simple chatbot implementation with PyTorch. 
+it's a Super Conversational chatbot that can ask any question.
+
+it has a Simple  implementation with PyTorch. 
+
+Whenever the propability of the response is < 0.75 it goes scrapping the a better response from wikipedia and question-answering platforms :quora and reddi using SELENIUM.
 
 The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
 
