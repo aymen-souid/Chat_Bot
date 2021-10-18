@@ -10,5 +10,6 @@ The implementation is straightforward with a Feed Forward Neural net with 2 hidd
 
 Customization for your own use case is super easy. Just modify intents.json with possible patterns and responses and re-run the training (see below for more info).
 
+# Example of response scrapped from the internet#
 
 ![Screenshot](3.png)
