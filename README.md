@@ -14,10 +14,10 @@ Customization for your own use case is super easy. Just modify intents.json with
 
 ![Screenshot](3.png)
 
-#Train the model 
+# Train the model 
 
 python train.py
 
-#Execute Flask application
+# Execute Flask application
 
 python App.py
